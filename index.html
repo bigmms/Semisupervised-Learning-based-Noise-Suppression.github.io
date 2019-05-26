@@ -1,10 +1,129 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>你好，GitHub</title>
-  </head>
-  <body>
-    <h1>覺得厲害</h1>
-  </body>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" >
+<meta name="description" content="Highly Accurate Image Reconstruction for Multimodal Noise Suppression Using Semisupervised Learning on Big Data">
+<meta name="keywords" content="Noise removal, big image data, semisupervised learning">
+
+<title>Highly Accurate Image Reconstruction for Multimodal Noise Suppression Using Semisupervised Learning on Big Data</title>
+<link href="css.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+
+
+
+
+
+<center>
+<h1>Deep Networks for Image Super-Resolution with Sparse Prior</h2>
+<h3><a href="http://www.ifp.illinois.edu/~wang308/" style="color: black">Zhaowen Wang</a>, Ding Liu, <a href="http://www.ifp.illinois.edu/~jyang29/" style="color: black">Jianchao Yang</a>, Wei Han, Thomas Huang</h3>
+<!--<center>ICCV 2015 Paper ID 526</center>-->
+
+</center>
+<h3 style="margin-left:35px;">Abstract</h3>
+<p style="text-align: justify; margin-left:35px; margin-right:35px;">Deep learning techniques have been successfully applied in many areas of computer vision,
+including low-level image restoration problems.
+For image super-resolution, several models based on deep neural networks have been recently
+proposed and attained superior performance that overshadows all previous handcrafted models.
+The question then arises whether large-capacity and data-driven models have
+become the dominant solution to the ill-posed super-resolution problem.
+In this paper, we argue that domain expertise represented by the conventional sparse coding model
+is still valuable, and it can be combined with the key ingredients of deep learning to achieve further
+improved results.
+We show that a sparse coding model particularly designed for super-resolution
+can be incarnated as a neural network, and trained in a cascaded structure from end to end.
+The interpretation of the network based on sparse coding leads to
+much more efficient and effective training, as well as a reduced model size.
+Our model is evaluated on a wide range of images, and shows clear advantage over existing state-of-the-art methods
+in terms of both restoration accuracy and human subjective quality.
+</p>
+
+<h3 style="margin-left:35px;">Network Architeture</h3>
+
+<p align="center" style="text-align:center"><span style="text-align:justify">
+<IMG SRC="./figures/network_architecture_caption.png" ALT="network architecture"  style="width: auto; height: auto;max-width: 1200px;max-height: 450px; margin-left:35px;">
+</span></p>
+
+
+<h3 style="margin-left:35px;">Results</h3>
+
+<p align="center" style="text-align:center"><span style="text-align:justify">
+<IMG SRC="./figures/results_table.png" ALT="results table"  style="width: auto; height: auto;max-width: 1200px;max-height: 450px; margin-left:35px;">
+</span></p>
+
+
+<h4 style="margin-left:45px;">Super-resolved images from various datasets:</h4>
+
+<ul style="margin-left:45px;">
+	<h4>
+  <li><a href="./html/SRdemoFrame_set5.html">Set 5</a>
+  </li>
+  <li><a href="./html/SRdemoFrame_set14.html">Set 14</a></li>
+  <li><a href="./html/SRdemoFrame_BSD100.html">BSD 100</a></li>
+	<h4>
+</ul>
+
+<h3 style="margin-left:35px;">Codes</h3>
+<p style="text-align: justify; margin-left:35px; margin-right:35px;">
+Test code in python: [<a href="./codes/python_iccv15.zip">Download</a>]
+</p>
+
+<p style="text-align: justify; margin-left:35px; margin-right:35px;">
+Reimplementation in Matlab: [<a href="https://github.com/huangzehao/SCN_Matlab">GitHub</a>]
+</p>
+
+
+<h3 style="margin-left:35px;">Citation</h3>
+<p style="text-align: justify; margin-left:35px; margin-right:35px;">
+Zhaowen Wang, Ding Liu, Jianchao Yang, Wei Han and Thomas S. Huang, <strong>Deep Networks for Image Super-Resolution with Sparse Prior</strong>. <i>Proceedings of the IEEE International Conference on Computer Vision</i>, 2015.
+[<a href="./iccv15.pdf">pdf</a>][<a href="./html/bib.html">bib</a>]
+</p>
+
+<p style="text-align: justify; margin-left:35px; margin-right:35px;">
+Ding Liu, Zhaowen Wang, Bihan Wen, Jianchao Yang, Wei Han and Thomas S. Huang, <strong>Robust Single Image Super-Resolution via Deep Networks with Sparse Prior</strong>. <i>IEEE Transcations on Image Processing</i>, 2016.
+[<a href="./tip16.pdf">pdf</a>][<a href="./html/bib2.html">bib</a>]
+</p>
+
+<h3 style="margin-left:35px;">Related Work</h3>
+<p style="text-align: justify; margin-left:35px; margin-right:35px;">
+Ding Liu, Zhaowen Wang, Nasser Nasrabadi and Thomas S. Huang, <strong>Learning a Mixture of Deep Networks for Single Image Super-Resolution</strong>. <i>Asian Conference on Computer Vision</i>, 2016.
+[<a href="../accv2016/index.html">project webpage</a>][<a href="../accv2016/accv2016_0395.pdf">pdf</a>][<a href="../accv2016/html/bib.html">bib</a>]
+</p>
+
+<center>
+<!-- Start of StatCounter Code for Default Guide -->
+<script type="text/javascript">
+var sc_project=10660976; 
+var sc_invisible=0; 
+var sc_security="82f6b63d"; 
+var scJsHost = (("https:" == document.location.protocol) ?
+"https://secure." : "http://www.");
+document.write("<sc"+"ript type='text/javascript' src='" +
+scJsHost+
+"statcounter.com/counter/counter.js'></"+"script>");
+</script>
+<noscript><div class="statcounter"><a title="web counter"
+href="http://statcounter.com/free-hit-counter/"
+target="_blank"><img class="statcounter"
+src="http://c.statcounter.com/10660976/0/82f6b63d/0/"
+alt="web counter"></a></div></noscript>
+<!-- End of StatCounter Code for Default Guide -->
+
+<style type="text/css">
+
+
+body {
+background-color: #F0F0FF;
+background-color: #FFFFFF;
+font: 1em Verdana;
+border: 0px solid ;
+line-height:150%;
+}
+</style>
+
+</body>
+
 </html>
